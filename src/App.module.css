@@ -1,0 +1,19 @@
+.wrapper {
+  max-width: 120rem;
+  max-height: 340.438rem;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+}
+
+.fixed{
+  width: 20.625rem;
+  max-height: 100%;
+  background: #E5E5E5;
+}
+
+.scrolls{
+  width: 99.375rem;
+  max-height: 100%;
+  background: #E5E5E5;
+}

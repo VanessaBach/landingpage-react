@@ -1,0 +1,50 @@
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html, body{
+    height: 100%;
+  }
+
+  :root {
+    height: 100%;
+  }
+
+  button {
+    background-color: none;
+    border: none;
+    outline: none;    
+  }
+
+  a {
+    text-decoration: none;
+    outline: none;
+  }
+  
+  h1 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 72px;        
+  }
+
+  h2 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 36px;    
+  }
+
+  h3 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;    
+  }
+
+  h4 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;        
+  }
+
+  

@@ -1,0 +1,9 @@
+.banner {
+  width: 1590px;
+  height: 1081px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hall-social-thumb600.jpg);
+  mix-blend-mode: normal;
+  border-radius: 100px 0px 600px;
+
+}
