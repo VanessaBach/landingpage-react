@@ -1,0 +1,30 @@
+.planta {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgPlanta {
+  width: 1153px;
+  height: 1081px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.options h2 {
+  font-weight: bold;
+  width: 242px;
+  height: 78px;
+  align-items: center;
+  margin-right: 128px;
+}
+
+.options button {
+  background: #FFB41D;
+  border-radius: 10px;
+  width: 328px;
+  height: 69px;
+ 
+}

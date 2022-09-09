@@ -1,0 +1,39 @@
+.empreendimento {
+  display: flex;
+  flex-direction: row;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  
+}
+
+.texto h2 {
+  padding: 20px;
+  width: 544px;
+  height: 124px;
+}
+
+.texto h3 {
+  align-self: center;
+  width: 424px;
+  height: 508px;
+}
+
+
+.outsideImg {
+  display: flex;
+  flex-direction: row;    
+}
+
+.outsideImg img{
+  width: 194px;
+  height: 341px;
+}
+
+.painelEmpredimento {
+  width: 933px;
+  height: 1080px;
+}

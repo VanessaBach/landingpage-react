@@ -1,0 +1,33 @@
+.localizacao {
+  display: flex;
+  flex-direction: row;
+}
+.endereco {
+  display: flex;
+  flex-direction: column;
+}
+
+.endereco h2 {
+  width: 544px;
+  height: 52px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.endereco h3 {
+  width: 349px;
+  height: 106px;
+  font-weight: bold;
+  align-items: center;
+  font-weight: 400;
+}
+
+.itens {
+  display: flex;
+  flex-direction: column;
+}
+
+.itensTexto {
+  display: flex;
+  flex-direction: row;
+}
