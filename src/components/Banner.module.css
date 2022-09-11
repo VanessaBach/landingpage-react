@@ -1,9 +1,44 @@
 .banner {
   width: 1590px;
   height: 1081px;
+  overflow: visible;
 
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hall-social-thumb600.jpg);
   mix-blend-mode: normal;
   border-radius: 100px 0px 600px;
+}
 
+.containerBanner h1{
+  position: absolute;
+  width: 595px;
+  height: 309px;
+  left: 363px;
+  top: 623px;
+
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 75px;
+ 
+  color: #FFFFFF;
+}
+
+.buttonBanner {
+  position: absolute;
+  width: 486px;
+  height: 66px;
+  left: 363px;
+  top: 969px;
+  
+  background: rgba(251, 252, 253, 0.94);
+  border-radius: 10px;
+}
+
+.buttonBanner h2 {
+  width: 392px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
 }

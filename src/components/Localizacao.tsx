@@ -10,7 +10,7 @@ import iconTrain from '../assets/iconstrain.svg';
 
 export function Localizacao (){
   return (
-    <div className={styles.localizacao}>
+    <div className={styles.localizacao} id="localizacao">
       <div className={styles.endereco}>
         <div>
           <h2>LOCALIZAÇÃO</h2>

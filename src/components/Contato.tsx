@@ -3,7 +3,7 @@ import BannerFinal from '../assets/bannerfinal.svg';
 
 export function Contato (){
   return (
-    <header className={styles.bannerFinal}>
+    <header className={styles.bannerFinal} id="contato">
       <img src={BannerFinal } alt="Logotipo" />
     </header>  
   );

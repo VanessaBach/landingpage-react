@@ -7,7 +7,7 @@ import OutsideImgTres from '../assets/outsideimg3.svg';
 
 export function Empreendimento(){
   return (
-    <div className={styles.empreendimento}>
+    <div className={styles.empreendimento} id="empreendimento">
       <div className={styles.description}>
         
         <div className = {styles.texto}>

@@ -10,6 +10,7 @@ import './global.css';
 
 
 function App() {
+ 
   return (
     <div className={styles.wrapper}>
       <div className={styles.fixed}> 

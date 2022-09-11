@@ -3,8 +3,8 @@ import ImgPlanta from '../assets/planta.svg';
 
 export function Planta(){
   return (
-    <div className={styles.planta}>
-      <div>
+    <div className={styles.planta}> 
+      <div id="planta">
         <img src={ImgPlanta} alt="" />
       </div>
       <div className={styles.options}>
