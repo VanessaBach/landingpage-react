@@ -9,25 +9,51 @@
 
 .endereco h2 {
   width: 544px;
-  height: 52px;
-  font-weight: bold;
-  align-items: center;
+  height: 124px; 
+  display: flex;
+  align-items: center; 
+  margin-left: 40px;
 }
 
 .endereco h3 {
   width: 349px;
   height: 106px;
-  font-weight: bold;
-  align-items: center;
+  float: right;
   font-weight: 400;
 }
 
 .itens {
   display: flex;
   flex-direction: column;
+  row-gap: 30px;
+}
+
+.itensRow {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.itensFundo {
+  overflow: auto;
+  
+
 }
 
 .itensTexto {
   display: flex;
   flex-direction: row;
+  width: 50px;
+  height: 50px;
+  background: url(icons8-shop-50.png);
+}
+
+
+
+.mapa {
+  width: 1163px;
+  height: 1102px;
+  background: linear-gradient(0deg, rgba(243, 173, 59, 0.1), rgba(243, 173, 59, 0.1)), url(Captura de tela 2022-01-05 123817.jpg);
+  mix-blend-mode: normal;
+  border-radius: 600px 0px 100px;
 }

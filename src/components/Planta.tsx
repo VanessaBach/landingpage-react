@@ -9,9 +9,15 @@ export function Planta(){
       </div>
       <div className={styles.options}>
         <h2>PLANTAS</h2>
-        <button> 3 quartos </button>
-        <button> 3 quartos </button>
-        <button> Cobertura</button>
+        <div className={styles.buttonPlanta}>
+          <h3> 3 QUARTOS </h3>
+        </div>
+        <div className={styles.buttonPlanta}>
+          <h3> 2 QUARTOS </h3> 
+        </div>
+        <div className={styles.buttonPlanta}> 
+          <h3> COBERTURA</h3>
+        </div>
       </div>
       
     </div>  

@@ -1,7 +1,8 @@
 .planta {
   display: flex;
   flex-direction: row;
-  
+  margin-top: 20px;    
+  column-gap: 40px;
 }
 
 .imgPlanta {
@@ -12,23 +13,34 @@
 .options {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;  
-}
+  row-gap: 30px;  
+}  
 
 .options h2 {
   font-weight: bold;
   width: 242px;
   height: 78px;
   align-items: center;
-  margin-right: 128px;
   align-self: center;
 }
 
-.options button {
-  background: #FFB41D;
-  border-radius: 10px;
+.buttonPlanta {
   width: 328px;
   height: 69px;
-  align-self: center;
- 
+  background: #E8E8E8;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.buttonPlanta h3 {
+  font-weight: 400;
+  text-transform: uppercase;
+  
+  color: #000000;
+}
+
+.buttonPlanta h3:hover {
+  text-decoration:underline;
+  text-decoration-color:blue;
 }
