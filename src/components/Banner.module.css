@@ -1,13 +1,14 @@
 .banner {
   width: 1590px;
   height: 1081px;
-  overflow: visible;
 
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   mix-blend-mode: normal;
   border-radius: 100px 0px 600px;
 }
-
+.rec-arrow {
+  display: none !important;
+}
 .containerBanner h1{
   position: absolute;
   width: 595px;

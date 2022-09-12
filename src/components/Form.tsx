@@ -41,7 +41,7 @@ export function Form({author, phoneNumber, emailAdress}:FormProps) {
     setNewEmail(event.target.value);
   }
   return(
-    <form onSubmit= {handleCreateNewForm} className= {styles.textForm}>
+    <form onSubmit= {handleCreateNewForm} className= {styles.textForm} id="form">
       <input 
         type="text" 
         name="nome" 

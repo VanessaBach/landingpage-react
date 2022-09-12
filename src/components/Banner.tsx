@@ -15,7 +15,9 @@ export function Banner (){
           <div className="front-page-content1 pb-5">
             <h1>APOSTE NO <strong>CONFORTO</strong> SEM PERDER A <strong>ELEGÂNCIA</strong></h1>          
 				    <div className={styles.buttonBanner}>
+            <a href="#form">
               <h2>MARQUE UMA VISITA</h2>
+            </a>
             </div>
           </div>
         </div>
