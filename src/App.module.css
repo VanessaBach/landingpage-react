@@ -1,5 +1,6 @@
 .wrapper {
-  max-width: 120rem;
+  width: 100%;
+  max-width: 1920px;
   max-height: 100%;
   background: #FFFFFF;
   display: flex;
@@ -8,16 +9,17 @@
 
 .fixed{
   position: fixed;
-  width: 20.625rem;
+  width: 330px;
   max-height: 100%;
   background: #FFFFFF;
 }
 
 .scrolls{
-  width: 99.375rem;
+  max-width: 1590px;
+  width: 100%;
   max-height: 100%;
   background: #FFFFFF;
-  overflow: scroll;
+  
   margin-left: 330px;
   margin-top: 0px;
   

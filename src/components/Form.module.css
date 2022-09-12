@@ -1,0 +1,27 @@
+.textForm {
+  width: 100%;
+  max-width:536px ;
+  max-height: 243px;  
+}
+
+.textForm input{
+  
+  background: rgba(251, 252, 253, 0.94);
+  border-radius: 10px;
+  width: 536.61px;
+  height: 68.39px;  
+  padding: 0px;
+  margin-bottom: 20px;
+  text-align:-webkit-center;
+}
+
+.textForm button[type=submit] {
+  width: 150.16px;
+  height: 36px;
+  background: #F3AD3B;
+  margin-left: 360px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}

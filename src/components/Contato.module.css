@@ -1,8 +1,56 @@
 .bannerFinal {
   width: 1590px;
   height: 1081px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(piscina-thumb600.jpg);
+  
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   mix-blend-mode: normal;
-  border-radius: 100px 0px 582.5px;
+  border-radius: 100px 0px 582.5px;  
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.containerBannerFinal {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.BannerFinalTexto{  
+  color: #FFFFFF;
   
 }
+
+.BannerFinalTexto h2 {
+  width: 400px;
+  position: absolute;
+  height: 68px;
+  left: 1237px;
+  top: 4539px;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.BannerFinalTexto h3 {
+  position: absolute;
+  width: 516.73px;
+  height: 68px;
+  left: 1237px;
+  top: 4700px;
+  font-weight: 700;
+}
+
+.form {
+  position: absolute;  
+  top: 4800px;
+  margin-left: 900px;
+}
+
+input {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;        
+}
+
+

@@ -3,7 +3,7 @@
   height: 1081px;
   overflow: visible;
 
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hall-social-thumb600.jpg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   mix-blend-mode: normal;
   border-radius: 100px 0px 600px;
 }
