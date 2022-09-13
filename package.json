@@ -1,9 +1,12 @@
 {
   "name": "react-landingpage",
+  "homepage": "https://vanessabach.github.io/landingpage-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -24,6 +27,7 @@
     "@types/react-dom": "^18.0.6",
     "@types/styled-components": "^5.1.26",
     "@vitejs/plugin-react": "^2.1.0",
+    "gh-pages": "^4.0.0",
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
   }
