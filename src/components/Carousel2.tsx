@@ -1,39 +1,27 @@
-import LdBanner from '../assets/banner.svg';
-import Carousel from 'react-responsive-carousel';
-import React from 'react';
+import { Banner } from './Banner';
+import { Banner2 } from './Banner2';
+import { Banner3 } from './Banner3';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
 
 
-var DemoCarousel = React.component {
-  render() {
-    return (
-      <Carousel showArrows={false} onChange={onChange} onClickItem={onClickItem} onClickThumb={onClickThumb}>
-      <div>
-        <img src={LdBanner} alt="" />
-        <p className="legend">Legend 1</p>
-      </div>
-      <div>
-        <img src={LdBanner} alt="" />
-        <p className="legend">Legend 2</p>
-      </div>
-      <div>
-        <img src={LdBanner} alt="" />
-        <p className="legend">Legend 3</p>
-      </div>
-      <div>
-        <img src={LdBanner} alt="" />
-        <p className="legend">Legend 4</p>
-      </div>
-      <div>
-        <img src={LdBanner} alt="" />
-        <p className="legend">Legend 5</p>
-      </div>
-      <div>
-        <img src={LdBanner} alt="" />
-        <p className="legend">Legend 6</p>
-      </div>
-    </Carousel>
-    );
-  };
-};
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
 
-export {DemoCarousel}
+import "./Carrousel2.css";
+
+// import required modules
+import { Navigation } from "swiper";
+
+export function Carousel2 () {
+  return (
+    <>
+      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+        <SwiperSlide><Banner/></SwiperSlide>
+        <SwiperSlide><Banner2/></SwiperSlide>
+        <SwiperSlide><Banner3/></SwiperSlide>
+      </Swiper>
+    </>
+  );
+}

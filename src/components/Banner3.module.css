@@ -1,23 +1,22 @@
-.banner {
+.banner3 {
   width: 1590px;
   height: 1081px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   mix-blend-mode: normal;
   border-radius: 100px 0px 600px;
-  position: relative;
 }
 
 .containerBanner h1{
   position: absolute;
   width: 595px;
-  height: 309px;
-  
-  top: 623px;
-
+  height: 370px;
+  left: 30px;
+  bottom: 0px;
+  text-align: left;
   font-weight: 400;
   font-size: 72px;
   line-height: 75px;
-  text-align: left;
-  margin-left: 30px;
  
   color: #FFFFFF;
 }

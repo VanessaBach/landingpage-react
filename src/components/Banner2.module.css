@@ -1,28 +1,28 @@
-.banner {
+.banner2 {
   width: 1590px;
   height: 1081px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   mix-blend-mode: normal;
   border-radius: 100px 0px 600px;
-  position: relative;
 }
 
-.containerBanner h1{
+.containerBanner2 h1{
   position: absolute;
-  width: 595px;
-  height: 309px;
-  
-  top: 623px;
+  width: 818px;
+  height: 250px;
+  bottom: 0px;
+  text-align: left;
+  margin-left: 30px;
 
   font-weight: 400;
   font-size: 72px;
   line-height: 75px;
-  text-align: left;
-  margin-left: 30px;
- 
+
   color: #FFFFFF;
 }
 
-.buttonBanner {
+.buttonBanner2 {
   position: absolute;
   width: 486px;
   height: 66px;
@@ -33,7 +33,7 @@
   border-radius: 10px;
 }
 
-.buttonBanner h2 {
+.buttonBanner2 h2 {
   
   height: 66px;
   display: flex;

@@ -4,6 +4,10 @@
   width: 100%;
 }
 
+.inactivetab{
+  display: none;
+}
+
 .description {
   display: flex;
   flex-direction: column;
@@ -54,7 +58,6 @@
   width: 194px;
   height: 341px;
   margin-right: 20px;
-  background: url(salao-jogos-thumb600.jpg);
   mix-blend-mode: normal;
   border-radius: 20px 0px 100px;
   margin-bottom: 10px;
@@ -69,7 +72,6 @@
 
 .painelEmpreendimento img { 
   
-  background: url(acessibilidade-thumb600.jpg);
   mix-blend-mode: normal;
   border-radius: 600px 0px 100px;
 }

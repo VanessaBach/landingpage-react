@@ -1,6 +1,5 @@
 import styles from './App.module.css';
-import {CarouselBanner } from './components/Carousel';
-import {DemoCarousel } from './components/Carousel2';
+import {Carousel2 } from './components/Carousel2';
 import { Contato } from './components/Contato';
 import { Empreendimento } from './components/Empreendimento';
 import { Header } from './components/Header';
@@ -19,7 +18,7 @@ function App() {
         <Home/>
       </div>
       <div className={styles.scrolls}> 
-        <DemoCarousel/>
+        <Carousel2/>
         <Empreendimento/>
         <Planta/>
         <Localizacao/>
